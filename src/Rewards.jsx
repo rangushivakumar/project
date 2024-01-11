@@ -19,7 +19,7 @@ function Rewards() {
       <h2>INSPIRED. MOTIVATED. INVOLVED.</h2>
 {   <div className='signup_page_button_container'>
         <button onClick={handle} className='signup_page_button1'>JOIN CLOUD SALE</button>
-        <button onClick={handle} className='signup_page_button2' >DOWNLOAD WHITE PAPER</button>
+        <a href="/whitepaper.docx" download><button onClick={handle} className='signup_page_button2' >DOWNLOAD WHITE PAPER</button></a>
       </div>}
     </div>
   </div>
